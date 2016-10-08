@@ -1,0 +1,102 @@
+/*site.css */
+
+header, footer {
+    background-color: dimgray;
+    border: solid 1px black;
+    font-family: serif;
+    padding: 1px;
+}
+
+footer {
+    padding: 10px;
+    border-radius: 3px;
+}
+
+body {
+    font-family: segoe UI, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #383838;
+}
+
+a {
+    color: #07630a;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.bordered-image{
+    border: solid 1px;
+
+}
+
+#results {
+    padding: 2px;
+    width: 600px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.simple-form{
+    padding: 2px;
+    width 300px;
+    display: inline-block;
+    vertical-align: top;
+/*    position: absolute;
+    top 20px;
+    left: 20px;
+   */
+}
+
+.simple-form {
+    border: solid 1px #281011;
+    border-radius: 5px;
+    color: #281011;
+    padding: 5px;
+}
+
+.simple-form label {
+    font-weight: bold;
+}
+
+.simple-form input[type=text],
+.simple-form select {
+    width: 150px;
+}
+
+.simple-form input[type=submit] {
+    background-color: #337b20;
+    border-radius: 20px;
+    color: #f4e3f2;
+    margin-top: 5px;
+    padding: 3px;
+}
+
+.container {
+    width: 989px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 5px;
+}
+
+header nav {
+    float: right;
+    margin-right: 5px;
+}
+
+header nav li {
+    display: inline;
+    font-size: 12px;
+}
+
+.result{
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.result .title{
+    font-weight: bold;
+}
